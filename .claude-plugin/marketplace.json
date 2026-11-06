@@ -1,0 +1,54 @@
+{
+  "name": "cantiere",
+  "description": "Cantiere: dall'idea al prodotto, in italiano.",
+  "owner": {
+    "name": "Mattia Balboni"
+  },
+  "plugins": [
+    {
+      "name": "cantiere",
+      "source": "./plugins/cantiere",
+      "description": "/cantiere progetta l'idea (processo con court, grilling mirato, documento di design); /produci la realizza come software, testo o slide."
+    },
+    {
+      "name": "court-skill",
+      "source": {
+        "source": "github",
+        "repo": "alexyc9381/court-skill"
+      },
+      "description": "Court di Alex Chen (MIT): processo all'idea con 12 giurati. Usato da /cantiere."
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills"
+      },
+      "description": "Skill di Matt Pocock (MIT), tra cui grilling. Usato da /cantiere."
+    },
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git"
+      },
+      "description": "Superpowers di Jesse Vincent (MIT): brainstorming, piani, esecuzione. Usato da /produci."
+    },
+    {
+      "name": "humanizer",
+      "source": {
+        "source": "github",
+        "repo": "blader/humanizer"
+      },
+      "description": "Humanizer di blader (MIT): ripulisce i testi. Usato da /produci."
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      },
+      "description": "UI/UX Pro Max di Next Level Builder (MIT): design system. Usato da /produci."
+    }
+  ]
+}

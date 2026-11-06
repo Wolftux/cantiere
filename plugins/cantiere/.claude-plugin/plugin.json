@@ -1,0 +1,20 @@
+{
+  "name": "cantiere",
+  "displayName": "Cantiere",
+  "version": "1.0.0",
+  "description": "Dall'idea grezza al prodotto finito: /cantiere progetta (court + grilling), /produci realizza software, testi o slide.",
+  "author": {
+    "name": "Mattia Balboni"
+  },
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "idea",
+    "workflow",
+    "italiano"
+  ],
+  "skills": [
+    "./cantiere",
+    "./produci"
+  ]
+}
