@@ -93,3 +93,5 @@ claude plugin install cantiere@cantiere
 ```
 
 Then restart Claude Code (or run `/reload-plugins`) and type `/cantiere` followed by your idea.
+
+Cantiere is also listed on [ClaudeMarketplace](https://www.claudemarketplace.net/), a directory of Claude Code skills and MCP servers.
