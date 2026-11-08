@@ -87,7 +87,9 @@ Leggi `modelli/sal.md` nella cartella di questa skill, sostituisci i segnaposto 
 
 Poi, se hai lo strumento `mcp__ccd_session__start_session` (app desktop; se è tra gli strumenti differiti, caricalo con ToolSearch), avvia una sessione con `initiation: user_asked`, `context: fresh`, `use_worktree: false`, titolo "Avanzamento: <nome>", `prompt` "Leggi docs/cantiere/sal.md e seguilo." e come `background` due frasi: cos'è il prodotto e dove sta il documento di design. Se lo strumento non c'è, stampa: "Apri una chat nuova in questa cartella e scrivi: leggi docs/cantiere/sal.md e seguilo".
 
-Il passo è finito quando la sessione è avviata o la riga è stampata.
+Subito dopo staccala da questa chat con `mcp__ccd_session_mgmt__detach_session`, passando l'id restituito (se è differito, caricalo con ToolSearch): la chat di avanzamento è una chat principale, non una sottochat di /cantiere. Se lo strumento non c'è o rifiuta, di' all'utente in una riga di staccarla dalla barra laterale con «Detach to top level» e vai avanti.
+
+Il passo è finito quando la sessione è avviata e staccata, o la riga è stampata.
 
 ## Passo 6: chiusura
 
