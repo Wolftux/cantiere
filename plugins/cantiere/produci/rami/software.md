@@ -20,6 +20,6 @@ Prima del punto 1, solo se interfaccia = sì e gli strumenti `21st` mancano (cer
    - leggi MASTER.md e `design-system/<slug>/pages/<pagina>.md`, se esiste;
    - usa le ricerche `--stack` e `--domain` di ui-ux-pro-max;
    - se hai gli strumenti di 21st (`mcp__21st__*`, o con un altro prefisso che contiene `21st`; anche tra i differiti: caricali con ToolSearch), usa `search`, `get_component` e `get_inspiration` per i componenti, e `generate` solo se compare tra gli strumenti. Se 21st manca, dillo in una riga e prosegui.
-5. **Grafo.** Se esiste un grafo graphify, a fine lavoro esegui `/graphify <cartella> --update`.
+5. **Grafo.** A fine lavoro, se la skill `graphify` è disponibile: se nella cartella del progetto esiste già `graphify-out/`, esegui `/graphify <cartella> --update`; altrimenti esegui `/graphify <cartella>` per crearlo. Il grafo nasce al primo /produci e cresce a ogni giro: i /produci e i /cantiere successivi sullo stesso progetto lo trovano pronto e lo usano come contesto invece di rileggere i file. Tra un giro e l'altro il codice si può tenere allineato senza modello con `graphify update <cartella>` (da un hook di fine sessione o post-commit); documenti e PDF nuovi li copre solo il `--update` di questo punto. Se graphify manca, dillo in una riga e prosegui.
 
 Il ramo è finito quando ogni task del piano ha `Task N: complete` nel ledger e la revisione finale di superpowers è chiusa. Poi vai al passo 4 di SKILL.md: il passo 3 (humanizer) vale solo per Testo e Slide.
