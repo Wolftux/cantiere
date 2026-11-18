@@ -2,7 +2,6 @@
 name: produci
 description: "Fase di produzione: legge il documento di design scritto da /cantiere e realizza il prodotto. Comando: /produci [percorso del documento]"
 argument-hint: "<percorso del documento di design>"
-disable-model-invocation: true
 ---
 
 # /produci: dal documento di design al prodotto
